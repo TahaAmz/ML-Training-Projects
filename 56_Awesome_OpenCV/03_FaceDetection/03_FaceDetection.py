@@ -1,14 +1,14 @@
 import os
 import cv2
 
-xml_file_path = r"56-Awesome-OpenCV\03_FaceDetection\haarcascade_frontalface_default.xml"
+xml_file_path = r"56_Awesome_OpenCV\03_FaceDetection\haarcascade_frontalface_default.xml"
 if not os.path.isfile(xml_file_path):
     print("ERROR: XML file missing!")
     exit()
     
 face_detector = cv2.CascadeClassifier(xml_file_path)
 
-img_path = r"56-Awesome-OpenCV\03_FaceDetection\face01.jpg"
+img_path = r"56_Awesome_OpenCV\03_FaceDetection\face01.jpg"
 if not os.path.isfile(img_path):
     print("ERROR: Image file missing!")
     exit()

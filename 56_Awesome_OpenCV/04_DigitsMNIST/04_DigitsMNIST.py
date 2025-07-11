@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 
-digits_train_path = r"56-Awesome-OpenCV\04_DigitsMNIST\DigitsTrain.png"
+digits_train_path = r"56_Awesome_OpenCV\04_DigitsMNIST\DigitsTrain.png"
 digits_train = cv2.imread(digits_train_path, cv2.IMREAD_GRAYSCALE)
 
-digits_test_path = r"56-Awesome-OpenCV\04_DigitsMNIST\DigitsTest.png"
+digits_test_path = r"56_Awesome_OpenCV\04_DigitsMNIST\DigitsTest.png"
 digits_test = cv2.imread(digits_test_path, cv2.IMREAD_GRAYSCALE)
 
 digits_test = np.vsplit(digits_test, 50)

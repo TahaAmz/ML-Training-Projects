@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 
-video_path = r"56-Awesome-OpenCV\06_LineDetection\video01.mp4"
+video_path = r"56_Awesome_OpenCV\06_LineDetection\video01.mp4"
 if not os.path.isfile(video_path):
     print("ERROR: Video file missing!")
     exit()

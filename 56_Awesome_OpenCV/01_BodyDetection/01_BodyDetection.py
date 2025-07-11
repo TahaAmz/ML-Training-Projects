@@ -1,14 +1,14 @@
 import os
 import cv2
 
-xml_file_path = r"56-Awesome-OpenCV\01_BodyDetection\haarcascade_fullbody.xml"
+xml_file_path = r"56_Awesome_OpenCV\01_BodyDetection\haarcascade_fullbody.xml"
 if not os.path.isfile(xml_file_path):
     print("ERROR: XML file missing!")
     exit()
 
 body_detector = cv2.CascadeClassifier(xml_file_path)
 
-img_path = r"56-Awesome-OpenCV\01_BodyDetection\body01.jpg"
+img_path = r"56_Awesome_OpenCV\01_BodyDetection\body01.jpg"
 if not os.path.isfile(img_path):
     print("ERROR: Image file missing!")
     exit()
